@@ -1,0 +1,34 @@
+import { Linkedin, Mail } from "lucide-react";
+import { FooterLayout } from "./ui/footer";
+
+export function Footer() {
+  return (
+    <div className="max-w-7xl mx-auto w-full">
+      <FooterLayout
+        logo={null}
+        brandName="GEORGE BIRMAN"
+        socialLinks={[
+          {
+            icon: <Linkedin className="h-5 w-5" />,
+            href: "https://www.linkedin.com/in/george-birman/",
+            label: "LinkedIn",
+          },
+          {
+            icon: <Mail className="h-5 w-5" />,
+            href: "mailto:mail.george.birman@gmail.com",
+            label: "Email",
+          },
+        ]}
+        mainLinks={[
+          { href: "https://keyscout.com/", label: "KeyScout" },
+          { href: "https://hestiva.com/", label: "Hestiva Platforms" },
+          { href: "https://tanaruz.boats/", label: "Tanaruz Boats" },
+          { href: "https://rawidea.org/", label: "RAW IDEA" },
+        ]}
+        copyright={{
+          text: `© ${new Date().getFullYear()} VerseDesign Portfolio. All rights reserved.`,
+        }}
+      />
+    </div>
+  );
+}

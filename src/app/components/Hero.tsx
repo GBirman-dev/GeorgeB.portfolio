@@ -1,0 +1,42 @@
+import { ImageWithFallback } from "./figma/ImageWithFallback";
+
+export function Hero() {
+  return (
+    <section className="bg-[#E8F0EA] py-14 md:py-20 px-6 md:px-20">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+          <div className="flex-shrink-0">
+            <div className="bg-white rounded-3xl p-2 shadow-sm">
+              <ImageWithFallback
+                src="/assets/hero-profile/George-Birman-profile-linkedIn.jpg"
+                alt="George Birman"
+                className="w-60 md:w-[280px] h-auto object-cover rounded-2xl"
+              />
+            </div>
+          </div>
+          <div className="space-y-3 flex-1 min-w-0">
+            <h1 className="text-3xl md:text-5xl font-bold leading-[1.12] text-[#1A2A22]">
+              Turning product vision into scalable, high-performing systems
+            </h1>
+            <p className="text-sm font-semibold tracking-wide text-[#1A2A22]/60 uppercase">
+              Growth Product Manager | UX &amp; Product Strategy
+            </p>
+            <p className="text-base text-gray-600 leading-relaxed max-w-lg">
+              Drive end-to-end UX and product strategy to create digital
+              solutions that meet business goals and user needs. Over 8 years of
+              experience designing, building, and scaling high-impact products.
+            </p>
+            <div className="flex gap-4 pt-3">
+              <button className="px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium">
+                Download Resume
+              </button>
+              <button className="px-6 py-3 border border-[#1A2A22] text-[#1A2A22] rounded-xl hover:bg-white/60 transition-colors font-medium">
+                View Work
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
