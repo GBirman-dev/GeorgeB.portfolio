@@ -6,7 +6,7 @@ export function Hero() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
           <div className="flex-shrink-0">
-            <div className="bg-white rounded-3xl p-2 shadow-sm">
+            <div className="bg-white rounded-3xl p-1 shadow-sm">
               <ImageWithFallback
                 src="/assets/hero-profile/George-Birman-profile-photo.webp"
                 alt="George Birman"
