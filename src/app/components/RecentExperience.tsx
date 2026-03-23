@@ -1,6 +1,6 @@
 export function RecentExperience() {
   return (
-    <section className="py-20 px-6 md:px-20 bg-[#141A1A] text-white">
+    <section id="recent-experience" className="py-20 px-6 md:px-20 bg-[#141A1A] text-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12">
           <div>

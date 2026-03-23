@@ -66,6 +66,8 @@ export function FooterLayout({
                 <li key={i} className="my-1 mx-2 shrink-0">
                   <a
                     href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-primary underline-offset-4 hover:underline"
                   >
                     {link.label}

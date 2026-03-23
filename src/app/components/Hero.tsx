@@ -27,12 +27,12 @@ export function Hero() {
               experience designing, building, and scaling high-impact products.
             </p>
             <div className="flex gap-4 pt-3">
-              <button className="px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium">
+              <a href="/Resume-Growth-Product-Manager-Georgi-Birman.pdf" download className="px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium">
                 Download Resume
-              </button>
-              <button className="px-6 py-3 border border-[#1A2A22] text-[#1A2A22] rounded-xl hover:bg-white/60 transition-colors font-medium">
+              </a>
+              <a href="#recent-experience" className="px-6 py-3 border border-[#1A2A22] text-[#1A2A22] rounded-xl hover:bg-white/60 transition-colors font-medium">
                 View Work
-              </button>
+              </a>
             </div>
           </div>
         </div>

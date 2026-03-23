@@ -21,7 +21,7 @@ export function Footer() {
         ]}
         mainLinks={[
           { href: "https://keyscout.com/", label: "KeyScout" },
-          { href: "https://hestiva.com/", label: "Hestiva Platforms" },
+          { href: "https://www.hestiva.nl", label: "Hestiva Platforms" },
           { href: "https://tanaruz.boats/", label: "Tanaruz Boats" },
           { href: "https://rawidea.org/", label: "RAW IDEA" },
         ]}

@@ -6,12 +6,12 @@ export function Header() {
           GEORGE BIRMAN
         </div>
         <div className="flex gap-3">
-          <button className="px-5 py-2 text-sm bg-white border border-[#1A2A22] text-[#1A2A22] rounded-xl hover:bg-gray-50 transition-colors font-medium">
+          <a href="/Resume-Growth-Product-Manager-Georgi-Birman.pdf" download className="px-5 py-2 text-sm bg-white border border-[#1A2A22] text-[#1A2A22] rounded-xl hover:bg-gray-50 transition-colors font-medium">
             Resume
-          </button>
-          <button className="px-5 py-2 text-sm bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium">
+          </a>
+          <a href="mailto:birmangeorgi@gmail.com" className="px-5 py-2 text-sm bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium">
             Contact
-          </button>
+          </a>
         </div>
       </div>
     </header>

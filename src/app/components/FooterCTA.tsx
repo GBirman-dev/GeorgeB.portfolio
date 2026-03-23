@@ -10,9 +10,9 @@ export function FooterCTA() {
           Let's discuss how I can contribute to your team.
         </p>
         <div className="pt-4">
-          <button className="px-8 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium">
+          <a href="mailto:birmangeorgi@gmail.com" className="inline-block px-8 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium">
             Get in touch
-          </button>
+          </a>
         </div>
       </div>
     </section>

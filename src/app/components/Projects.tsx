@@ -7,21 +7,24 @@ export function Projects() {
       subtitle: "Scaling Cross-Border Living",
       description:
         "Led product, UX, and growth strategy to transform a rental platform into a scalable Benelux marketplace.",
-      image: "/assets/project-thumbnails/Keyscout.png",
+      image: "/assets/project-thumbnails/hestiva-platforms-project-thumbnail.webp",
+      url: "https://www.hestiva.nl",
     },
     {
       title: "Tanaruz Boats",
       subtitle: "Building a Digital Experience for 3D-Printed Boats",
       description:
         "Designed and launched a full digital ecosystem for an emerging manufacturing category.",
-      image: "/assets/project-thumbnails/LeadMind-website-project-2.webp",
+      image: "/assets/project-thumbnails/Tanaruz-boats-project-thumbnail.webp",
+      url: "https://tanaruz.boats",
     },
     {
       title: "RAW IDEA",
       subtitle: "Turning Visual Identity into a Sales Driver",
       description:
         "Crafted a bold digital identity that directly increased customer acquisition.",
-      image: "/assets/project-thumbnails/Borgplaats-platform-1.webp",
+      image: "/assets/project-thumbnails/Raw-idea-project-thumbnail.webp",
+      url: "https://rawidea.org",
     },
   ];
 
@@ -58,9 +61,9 @@ export function Projects() {
                   {project.description}
                 </p>
                 <div className="pt-2">
-                  <button className="px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium text-sm">
+                  <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium text-sm">
                     View Case Study
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
