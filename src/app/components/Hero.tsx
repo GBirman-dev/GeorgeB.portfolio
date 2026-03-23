@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="bg-[#E8F0EA] py-14 md:py-20 px-6 md:px-20">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center justify-center">
           <div className="flex-shrink-0">
             <div className="bg-white rounded-3xl p-1 shadow-sm">
               <ImageWithFallback
@@ -15,7 +15,7 @@ export function Hero() {
             </div>
           </div>
           <div className="space-y-3 flex-1 min-w-0">
-            <h1 className="text-3xl md:text-5xl font-bold leading-[1.12] text-[#1A2A22]">
+            <h1 className="text-3xl md:text-5xl font-bold leading-[1.12] text-[#1A2A22] max-w-lg">
               Turning product vision into scalable, high-performing systems
             </h1>
             <p className="text-sm font-semibold tracking-wide text-[#1A2A22]/60 uppercase">
