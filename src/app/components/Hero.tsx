@@ -8,7 +8,7 @@ export function Hero() {
           <div className="flex-shrink-0">
             <div className="bg-white rounded-3xl p-2 shadow-sm">
               <ImageWithFallback
-                src="/assets/hero-profile/George-Birman-profile-linkedIn.jpg"
+                src="/assets/hero-profile/George-Birman-profile-photo.webp"
                 alt="George Birman"
                 className="w-60 md:w-[280px] h-auto object-cover rounded-2xl"
               />
