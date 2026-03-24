@@ -60,9 +60,11 @@ export default function HestivaPlatforms() {
             <h1 className="text-4xl md:text-[56px] font-bold leading-[1.1] text-[#1A2A22] mb-5">
               Hestiva Platforms
             </h1>
+            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+              Scaling a community-driven real estate platform
+            </p>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-10">
-              Scaling a community-driven real estate platform from social
-              traction to product-market fit.
+              from social traction to product-market fit.
             </p>
 
             {/* Quick facts */}
