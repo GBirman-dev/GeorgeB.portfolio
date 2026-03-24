@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Projects() {
@@ -8,7 +9,8 @@ export function Projects() {
       description:
         "Led product, UX, and growth strategy to transform a rental platform into a scalable Benelux marketplace.",
       image: "/assets/project-thumbnails/hestiva-platforms-project-thumbnail.webp",
-      url: "https://www.hestiva.nl",
+      url: "/project/hestiva-platforms",
+      internal: true,
     },
     {
       title: "Tanaruz Boats",
@@ -61,9 +63,15 @@ export function Projects() {
                   {project.description}
                 </p>
                 <div className="pt-2">
-                  <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium text-sm">
-                    View Case Study
-                  </a>
+                  {(project as any).internal ? (
+                    <Link to={project.url} className="inline-block px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium text-sm">
+                      View Case Study
+                    </Link>
+                  ) : (
+                    <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 bg-[#1A2A22] text-white rounded-xl hover:bg-[#0f1814] transition-colors font-medium text-sm">
+                      View Case Study
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

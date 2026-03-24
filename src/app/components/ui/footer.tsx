@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Button } from "@/app/components/ui/button";
 
 interface FooterProps {
@@ -62,18 +63,30 @@ export function FooterLayout({
         <div className="border-t mt-6 pt-6 md:mt-4 md:pt-8 lg:grid lg:grid-cols-10">
           <nav className="lg:mt-0 lg:col-[4/11]">
             <ul className="list-none flex flex-wrap -my-1 -mx-2 lg:justify-end">
-              {mainLinks.map((link, i) => (
-                <li key={i} className="my-1 mx-2 shrink-0">
-                  <a
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-primary underline-offset-4 hover:underline"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+              {mainLinks.map((link, i) => {
+                const isInternal = link.href.startsWith("/");
+                return (
+                  <li key={i} className="my-1 mx-2 shrink-0">
+                    {isInternal ? (
+                      <Link
+                        to={link.href}
+                        className="text-sm text-primary underline-offset-4 hover:underline"
+                      >
+                        {link.label}
+                      </Link>
+                    ) : (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-primary underline-offset-4 hover:underline"
+                      >
+                        {link.label}
+                      </a>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </nav>
           {legalLinks && legalLinks.length > 0 && (
