@@ -62,8 +62,8 @@ export default function RawIdea() {
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-10">
               Defining a parent brand and<br className="md:hidden" />
-              {" "}digital foundation for a<br className="md:hidden" />
-              {" "}next-generation manufacturing ecosystem.
+              {" "}digital foundation for a next-<br className="md:hidden" />
+              generation manufacturing ecosystem.
             </p>
 
             {/* Quick facts */}
