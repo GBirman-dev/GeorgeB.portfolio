@@ -18,7 +18,8 @@ export function Projects() {
       description:
         "Designed and launched a full digital ecosystem for an emerging manufacturing category.",
       image: "/assets/project-thumbnails/Tanaruz-boats-project-thumbnail.webp",
-      url: "https://tanaruz.boats",
+      url: "/project/tanaruz-boats",
+      internal: true,
     },
     {
       title: "RAW IDEA",
@@ -26,7 +27,8 @@ export function Projects() {
       description:
         "Crafted a bold digital identity that directly increased customer acquisition.",
       image: "/assets/project-thumbnails/Raw-idea-project-thumbnail.webp",
-      url: "https://rawidea.org",
+      url: "/project/rawidea",
+      internal: true,
     },
   ];
 

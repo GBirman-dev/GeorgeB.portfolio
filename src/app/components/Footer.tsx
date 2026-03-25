@@ -22,8 +22,8 @@ export function Footer() {
         mainLinks={[
           { href: "https://keyscout.com/", label: "KeyScout" },
           { href: "/project/hestiva-platforms", label: "Hestiva Platforms" },
-          { href: "https://tanaruz.boats/", label: "Tanaruz Boats" },
-          { href: "https://rawidea.org/", label: "RAW IDEA" },
+          { href: "/project/tanaruz-boats", label: "Tanaruz Boats" },
+          { href: "/project/rawidea", label: "RAW IDEA" },
         ]}
         copyright={{
           text: `© ${new Date().getFullYear()} VerseDesign Portfolio. All rights reserved.`,
