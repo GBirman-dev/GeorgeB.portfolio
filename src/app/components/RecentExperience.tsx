@@ -11,7 +11,7 @@ export function RecentExperience() {
               <img
                 src="/assets/project-thumbnails/keyscout-bright-logo-original.svg"
                 alt="KeyScout"
-                className="h-8 md:h-10 w-auto"
+                className="h-10 md:h-12 w-auto"
               />
             </div>
             <p className="text-sm font-semibold tracking-wide text-gray-400 uppercase mb-4">

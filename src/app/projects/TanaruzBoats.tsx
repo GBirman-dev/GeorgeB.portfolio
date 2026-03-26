@@ -165,7 +165,7 @@ export default function TanaruzBoats() {
                     key={item}
                     className="flex items-start gap-3 text-base text-gray-600 leading-relaxed"
                   >
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -272,7 +272,7 @@ export default function TanaruzBoats() {
                     key={item}
                     className="flex items-start gap-3 text-base text-gray-600 leading-relaxed"
                   >
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -306,7 +306,7 @@ export default function TanaruzBoats() {
                     key={item}
                     className="flex items-start gap-3 text-base text-gray-600 leading-relaxed"
                   >
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -340,7 +340,7 @@ export default function TanaruzBoats() {
                     key={item}
                     className="flex items-start gap-3 text-base text-gray-600 leading-relaxed"
                   >
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -378,7 +378,7 @@ export default function TanaruzBoats() {
                     key={item}
                     className="flex items-start gap-3 text-base text-gray-600 leading-relaxed"
                   >
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -416,7 +416,7 @@ export default function TanaruzBoats() {
                     key={item}
                     className="flex items-start gap-3 text-base text-gray-600 leading-relaxed"
                   >
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -491,7 +491,7 @@ export default function TanaruzBoats() {
                   key={item}
                   className="flex items-start gap-3 text-base text-gray-600 leading-relaxed"
                 >
-                  <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
+                  <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-[#A0C8B1] flex-shrink-0" />
                   {item}
                 </li>
               ))}
